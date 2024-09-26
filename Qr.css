@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#qr-container{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    background-color: white;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+#input-qr{
+    /* taaki 1 line m aa jaaye */
+    display: block;  
+    font-size:16px ;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+#qr-button{
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: none;
+    background-color: #2ecc71;
+    color: white;
+    border-radius: 40px;
+    margin-bottom: 10px;
+}
+
+
+#qrimg {
+     display: block; /* Initially hide the QR image */
+    width: 50%;
+    margin: 0 auto;
+}
